@@ -2465,3 +2465,17 @@
 [2026-02-04T16:24:36.465+0000] {logging_mixin.py:151} INFO - [2026-02-04T16:24:36.465+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2026-02-04T16:24:36.476+0000] {logging_mixin.py:151} INFO - [2026-02-04T16:24:36.476+0000] {dag.py:3696} INFO - Setting next_dagrun for my_first_tutor_dag to 2026-02-04T16:23:00+00:00, run_after=2026-02-04T16:24:00+00:00
 [2026-02-04T16:24:36.484+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/first_dag.py took 0.079 seconds
+[2026-02-04T16:25:06.775+0000] {processor.py:157} INFO - Started process (PID=391) to work on /opt/airflow/dags/first_dag.py
+[2026-02-04T16:25:06.777+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2026-02-04T16:25:06.782+0000] {logging_mixin.py:151} INFO - [2026-02-04T16:25:06.782+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2026-02-04T16:25:06.807+0000] {processor.py:839} INFO - DAG(s) dict_keys(['my_first_tutor_dag']) retrieved from /opt/airflow/dags/first_dag.py
+[2026-02-04T16:25:06.839+0000] {logging_mixin.py:151} INFO - [2026-02-04T16:25:06.839+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-02-04T16:25:06.850+0000] {logging_mixin.py:151} INFO - [2026-02-04T16:25:06.850+0000] {dag.py:3696} INFO - Setting next_dagrun for my_first_tutor_dag to 2026-02-04T16:24:00+00:00, run_after=2026-02-04T16:25:00+00:00
+[2026-02-04T16:25:06.858+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/first_dag.py took 0.090 seconds
+[2026-02-04T16:25:37.114+0000] {processor.py:157} INFO - Started process (PID=392) to work on /opt/airflow/dags/first_dag.py
+[2026-02-04T16:25:37.115+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2026-02-04T16:25:37.121+0000] {logging_mixin.py:151} INFO - [2026-02-04T16:25:37.120+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2026-02-04T16:25:37.140+0000] {processor.py:839} INFO - DAG(s) dict_keys(['my_first_tutor_dag']) retrieved from /opt/airflow/dags/first_dag.py
+[2026-02-04T16:25:37.171+0000] {logging_mixin.py:151} INFO - [2026-02-04T16:25:37.171+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2026-02-04T16:25:37.182+0000] {logging_mixin.py:151} INFO - [2026-02-04T16:25:37.182+0000] {dag.py:3696} INFO - Setting next_dagrun for my_first_tutor_dag to 2026-02-04T16:24:00+00:00, run_after=2026-02-04T16:25:00+00:00
+[2026-02-04T16:25:37.190+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/first_dag.py took 0.083 seconds
